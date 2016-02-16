@@ -1,6 +1,7 @@
 ### xml2js-repro
 This repository reproduces an issue with asynchronous xml2js.Parser
-objects in xml2js 0.4.16.
+objects in xml2js 0.4.16. This behavior does not reproduce in earlier
+versions of xml2js (tested against 0.4.4).
 
 The following code:
 ```javascript
